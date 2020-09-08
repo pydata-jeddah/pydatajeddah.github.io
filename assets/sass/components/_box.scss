@@ -1,20 +1,11 @@
-///
-/// Massively by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
-
 /* Box */
 
 	.box {
 		border-radius: _size(border-radius);
-		border: solid 2px;
-		margin-bottom: _size(element-margin);
-		padding: 1.5rem;
+		box-shadow: 0px 0px 4px 1px _palette(border-lt);
+		padding: 3rem;
 
-		> :last-child,
-		> :last-child > :last-child,
-		> :last-child > :last-child > :last-child {
+		> :last-child {
 			margin-bottom: 0;
 		}
 
@@ -22,6 +13,10 @@
 			border: 0;
 			border-radius: 0;
 			padding: 0;
+		}
+
+		@include breakpoint('<=medium') {
+			padding: 2rem;
 		}
 	}
 

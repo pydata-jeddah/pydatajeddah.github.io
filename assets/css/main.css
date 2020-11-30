@@ -2959,6 +2959,48 @@ box-shadow:inset 2em 0 #ee9041;
 }
 
 
+
+#meetupDiv {
+
+  text-align: justify;
+  -moz-text-align-last: center;
+text-align-last: center;
+
+  margin: 0px;
+  padding: 0px;
+
+
+
+}
+
+#meetuphighlights{
+
+ 
+  margin: 10px;
+  padding: 0px;
+
+
+
+
+}
+
+
+#membersDiv {
+
+  margin: auto;
+  padding: 1rem;
+  width: 250px;
+
+
+}
+
+
+#imgSpeaker{
+
+
+  width:75%;height:15%;border: 2px solid #459db9;
+}
+
 /* footer soical media */
 /*#Meetup {
   background-image: url(../../images/meetup.png);
